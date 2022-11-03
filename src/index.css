@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 85%;
+  margin: auto;
+}
+.achor{
+  display: block;
+  color: #222;
+  padding: 10px 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.achor:hover{
+  color: #eb5424;
+}
+
